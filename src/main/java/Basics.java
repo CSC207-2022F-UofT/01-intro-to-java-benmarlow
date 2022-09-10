@@ -102,7 +102,6 @@ public class Basics {
         for (int j = 10; j >= 0; j--) {
             System.out.println("Current Count: " + j);
         }
-
     }
 
     /**
@@ -159,7 +158,7 @@ public class Basics {
      *
      * Return the sum of all integers at odd indices in the given array.
      * If there are no items at odd indices (e.g. a list with 0 or 1 elements),
-     * return 0.
+     * return 0. 
      *
      * (Relevant readings: 1.6. Arrays and 1.8.2. for Loops)
      *
@@ -178,6 +177,7 @@ public class Basics {
         for (int i = 0; i <= arr.length(); i++) {
             if (i % 2 != 0) {
                 current_sum += arr[i];
+            }
         }
         return current_sum;
     }
