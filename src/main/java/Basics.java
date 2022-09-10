@@ -144,9 +144,9 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] list_of_words = to_string.split();
+        String[] list_of_words = to_string.split(" ");
         for (int i = 0; i <= 7; i++) {
-            ret = ret + list_of_words[i].charAt(0);
+            ret.append(list_of_words[i].charAt(0));
         }
         return ret.toString();
     }
@@ -174,7 +174,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        for (int i = 0; i <= arr.length(); i++) {
+        for (int i = 0; i <= arr.length; i++) {
             if (i % 2 != 0) {
                 current_sum += arr[i];
             }
