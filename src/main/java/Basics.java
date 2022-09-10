@@ -62,7 +62,7 @@ public class Basics {
          * TODO (Task 2): Create a variable named my_variable and assign it the
          *                value 100.
          */
-        int my_variable = 100
+        int my_variable = 100;
 
 
         /* Do not remove the line below: if you did task 2 correctly, then
@@ -100,7 +100,7 @@ public class Basics {
          * Current count: 0
          */
         for (int j = 10; j >= 0; j--) {
-            System.out.println("Current Count: " + j)
+            System.out.println("Current Count: " + j);
         }
 
     }
@@ -145,9 +145,9 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] list_of_words = to_string.split()
+        String[] list_of_words = to_string.split();
         for (int i = 0; i <= 7; i++) {
-            ret = ret + list_of_words[i].charAt(0)
+            ret = ret + list_of_words[i].charAt(0);
         }
         return ret.toString();
     }
@@ -177,7 +177,7 @@ public class Basics {
          */
         for (int i = 0; i <= arr.length(); i++) {
             if (i % 2 != 0) {
-                current_sum += arr[i]
+                current_sum += arr[i];
         }
         return current_sum;
     }
