@@ -100,7 +100,7 @@ public class Basics {
          * Current count: 0
          */
         for (int j = 10; j >= 0; j--) {
-            System.out.println("Current Count: " + j);
+            System.out.println("Current count: " + j);
         }
     }
 
@@ -145,7 +145,7 @@ public class Basics {
 
         // Fill in the rest of the body here
         String[] list_of_words = to_split.split(" ");
-        for (int i = 0; i <= 7; i++) {
+        for (int i = 0; i <= 6; i++) {
             ret.append(list_of_words[i].charAt(0));
         }
         return ret.toString();
@@ -174,7 +174,7 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        for (int i = 0; i <= arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (i % 2 != 0) {
                 current_sum += arr[i];
             }
