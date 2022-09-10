@@ -144,7 +144,7 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] list_of_words = to_string.split(" ");
+        String[] list_of_words = to_split.split(" ");
         for (int i = 0; i <= 7; i++) {
             ret.append(list_of_words[i].charAt(0));
         }
